@@ -1,5 +1,5 @@
 context:
-  version: "0.2.61"
+  version: "0.2.62"
 
 package:
   name: cargo-show-asm
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pacak/cargo-show-asm/archive/refs/tags/${{ version }}.tar.gz
-  sha256: caa5d9fa7b7b67a42d23a67d8312dfee5aa7a7e89735a3ac229ad2ea1bb7c62b
+  sha256: fa49db55969fd1d627daf88214995f5907c9a9f076baa6dbbca56f1afbf73b03
 
 build:
   number: 0
