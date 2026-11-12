@@ -1,5 +1,5 @@
 context:
-  version: "0.2.63"
+  version: "0.2.65"
 
 package:
   name: cargo-show-asm
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/pacak/cargo-show-asm/archive/refs/tags/${{ version }}.tar.gz
-  sha256: d391fdea08cfd4e4638299ecfb86b56ef910b3f79f72462485b6e0713adefa29
+  sha256: c6550e496cd0ae89f36d4be2741e832688a3c4e80b684f5506a622549cfeddb8
 
 build:
-  number: 1
+  number: 0
   script:
     env:
       CARGO_PROFILE_RELEASE_STRIP: symbols
